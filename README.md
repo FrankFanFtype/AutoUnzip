@@ -34,7 +34,7 @@ English Version
 注：英文版本的是机翻，以中文版本为准。如有表达问题欢迎指正！  
 This English README is machine-translated. Please take the Chinese version as the standard. Corrections are welcome.
 
-Preface: The author often needs to download archives from various "sites," which are usually encrypted. Downloading them one by one and manually extracting them is incredibly troublesome, so I developed this automation tool out of sheer frustration. This tool was created using Gemini 3. The author suffers from mild intellectual disability and is essentially illiterate or semi-illiterate. If you see any strange coding styles in the program, that is definitely my problem. If there are any incredibly stupid operations, please be sure to inform me via an issue. Thanks in advance to the experts for your guidance!
+Preface: If there are any incredibly stupid operations, please be sure to inform me via an issue. Thanks in advance to the experts for your guidance!
 
 Note: You must have 7-Zip installed to use this program. Download it here: https://www.7-zip.org/. It is recommended to install it to the default path. If 7-Zip is installed in a non-standard location, you can modify the path in "Basic Settings."
 
