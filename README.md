@@ -32,38 +32,20 @@ An automated program that monitors a specified folder for all compressed archive
 English Version
 
 注：英文版本的是机翻，以中文版本为准。如有表达问题欢迎指正！  
-This English README is machine-translated. Please take the Chinese version as the standard. Corrections are welcome.
+> **Note:** The English version is machine-translated. Please take the Chinese version as the authoritative standard. Corrections are welcome!
 
-Preface: If there are any incredibly stupid operations, please be sure to inform me via an issue. Thanks in advance to the experts for your guidance!
+### Introduction
+An automated program that monitors specified folders for compressed archives and extracts them automatically. 
 
-Note: You must have 7-Zip installed to use this program. Download it here: https://www.7-zip.org/. It is recommended to install it to the default path. If 7-Zip is installed in a non-standard location, you can modify the path in "Basic Settings."
+**Development Note:** This tool was created with the assistance of **Gemini 3**. The author is a beginner. If you see strange coding styles, that is expected. Feedback via Issues is welcome!
 
-Features:
+### Key Features
+* **Folder Monitoring:** Set specific folders to watch. Archives are extracted instantly upon detection.
+* **Password Book:** Automatically tries saved passwords for encrypted archives. Ideal for frequent downloads from the same source.
+* **Smart Extraction:** Automatically creates a subfolder if the archive contains multiple files to keep your directory clean.
+* **Threads:** Adjustable CPU thread usage for faster extraction.
 
-Folder Monitoring: You can set a group of folder paths. Once monitoring starts, it automatically extracts the archive files inside.
-
-Password Book: If you frequently download multiple archives with the same password, you can record common passwords in the password book. The program will automatically try them during the extraction process.
-
-Smart Extraction: When an archive contains more than one file/folder, this feature automatically extracts all files into a separate folder to avoid scattering loose files. It is recommended to keep this enabled.
-
-Threads: This setting controls the CPU threads used. If extraction is slow, you can increase this value, but it is not recommended to exceed your CPU's physical thread count.
-
-Warnings:
-
-The program is distributed as a folder. Do not move the .exe file out to run it separately, as all your configuration information is saved in a generated JSON file. If you run the .exe in isolation, you risk accidentally deleting the JSON file, resulting in the loss of all saved file paths and passwords.
-
-Unless necessary, do not turn off "Strict Mode." When you use download tools like Baidu Netdisk or Aria2, they may create temporary files with archive extensions. Strict Mode prevents unnecessary attempts on these temporary files and ensures they aren't missed after the download completes.
-
-Unless necessary, do not turn off "Extract existing archives after starting monitoring." As the name implies, enabling this feature ensures that no unextracted archives remain in the monitored folder.
-
-The log displayed by default is a Simplified Log. The complete log is displayed only after clicking "Show Full Log." The simplified log prevents the log from being flooded with duplicate records caused by file sniffing.
-
-Common Use Cases:
-
-You occasionally need to download a large number of archives from fixed sources with fixed passwords. Downloading them directly into the monitored folder saves you from repeatedly clicking to extract them and eliminates doubts like "Did I miss a package?"
-
-You want your download folder to automatically extract downloaded archives, and you don't want to be left with a pile of archives with unknown contents waiting for you to clean up.
-
-You have to handle a vast number of archives, sometimes with different passwords, and clicking through them one by one to enter passwords is a hassle.
-
-You have to handle a vast number of archives, sometimes with different passwords, and clicking through them one by one to enter passwords is a hassle.
+### ⚠️ Warnings & Tips
+1.  **Dependencies:** You must have [7-Zip](https://www.7-zip.org/) installed.
+2.  **Portable Mode:** Do not move the `.exe` file out of its folder. Configuration is saved in a local `.json` file; moving the executable will cause data loss.
+3.  **Strict Mode:** Keep this **ON** to avoid conflicts with temporary files created by download managers (like IDM, Aria2, BaiduNetdisk).
