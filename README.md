@@ -1,8 +1,8 @@
 # AutoUnzip
 
-<div align="right">
+<div align="center">
   <a href="README_CN.md">
-    <img src="https://img.shields.io/badge/Language-中文-blue?style=for-the-badge" alt="中文说明">
+    <img src="https://img.shields.io/badge/Language-中文说明-blue?style=for-the-badge" height="35" alt="中文说明">
   </a>
 </div>
 
