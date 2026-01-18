@@ -1,8 +1,8 @@
 # AutoUnzip
 
-<div align="right">
+<div align="center">
   <a href="README.md">
-    <img src="https://img.shields.io/badge/Language-English-red?style=for-the-badge" alt="English Version">
+    <img src="https://img.shields.io/badge/Language-English_Version-red?style=for-the-badge" height="35" alt="English Version">
   </a>
 </div>
 
